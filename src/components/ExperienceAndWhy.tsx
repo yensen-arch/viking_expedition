@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Cutting-Edge Expedition Ships",
-  description: "The Viking Octantis and Viking Polaris feature state-of-the-art design, with spacious staterooms, advanced laboratories, and onboard submarines and Zodiacs for immersive exploration.",
+  title: "Modern Expedition Vessels",
+  description: "Cutting-edge ships feature labs, submarines, and observation lounges for polar exploration.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Science Meets Comfort",
-  description: "Partnering with world-leading institutions like Cambridge University and NOAA, Viking provides onboard research, lectures, and hands-on learning experiences led by resident scientists.",
+  title: "Destination-Focused Design",
+  description: "All veranda staterooms, indoor-outdoor lounges, and panoramic views connect you to the landscape.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Immersive, Inclusive Itineraries",
-  description: "With carefully curated shore landings, kayaking, and special operations boats, each itinerary brings you closer to the natural world—always accompanied by Viking’s expert expedition team.",
+  title: "Scientific Partnerships",
+  description: "Collaborates with universities and research organizations on board programs.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Expertly Curated Itineraries",
-  description: "Every Viking Expedition Cruise itinerary is thoughtfully designed to showcase the best historical landmarks, hidden gems, and natural wonders.",
+  title: "Enrichment Over Entertainment",
+  description: "Lectures, photography, and fieldwork replace casinos and nightclubs for immersive learning.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Viking Expedition Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
